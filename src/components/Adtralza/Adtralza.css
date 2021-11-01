@@ -1,0 +1,83 @@
+.adtralza_holder {
+  width: 100%;
+  background-image: url("img/bannerImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.adtralza_holder .adtralza_box {
+  width: 80%;
+  height: 400px;
+  text-align: right;
+  margin-left: auto;
+  margin-right: auto;
+}
+.adtralza_holder .adtralza_box div {
+  clear: both;
+}
+.adtralza_holder .adtralza_box p {
+  font-size: 28px;
+  color: white;
+  font-weight: 400;
+  width: 480px;
+  text-align: left;
+}
+.adtralza_holder .adtralza_box .adtralza_img {
+  float: left;
+}
+.adtralza_holder .adtralza_box .peopleimg {
+  margin-top: -230px;
+}
+
+@media screen and (max-width: 1400px) {
+  .adtralza_holder {
+    height: 629px;
+  }
+  .adtralza_holder .adtralza_box {
+    text-align: center;
+    width: 50%;
+  }
+  .adtralza_holder .adtralza_box p {
+    text-align: center;
+    margin: auto;
+  }
+  .adtralza_holder .adtralza_box .peopleimg {
+    margin-top: 50px;
+    margin-left: -10%;
+  }
+  .adtralza_holder .adtralza_box .adtralza_img {
+    float: none;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 900px) {
+  .adtralza_holder {
+    height: 629px;
+  }
+  .adtralza_holder .adtralza_box {
+    width: 100%;
+  }
+  .adtralza_holder .adtralza_box .peopleimg {
+    height: 100%;
+  }
+}
+@media screen and (max-width: 770px) {
+  .adtralza_holder {
+    height: 489px;
+  }
+  .adtralza_holder .adtralza_box .peopleimg {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .adtralza_holder {
+    height: 441px;
+  }
+  .adtralza_holder .adtralza_box p {
+    font-size: 20px;
+    width: auto;
+    height: 150px;
+  }
+  .adtralza_holder .adtralza_box .peopleimg {
+    height: 150px;
+  }
+}

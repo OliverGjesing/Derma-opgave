@@ -1,0 +1,57 @@
+.medicine_holder{
+    background-color: #eeee;
+    padding-top: 100px;
+    padding-bottom: 75px;
+    .medicine_box{
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            .medicine_img{
+                width: 445px;
+                margin-right: -15%;
+            }
+            div{
+                width: 35%;
+                text-align: left;
+                float: right;
+                margin-right: 10%;
+                
+                .big_text{
+                    font-size: 28px;
+                    color: #00609C;
+                }
+                p{
+                    font-size: 18px;
+                }
+            }
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1300px) {
+    .medicine_holder{
+        .medicine_box{
+            .medicine_img{
+                margin-right: -5%;
+            }
+        }
+    }
+}
+@media screen and (max-width: 999px) {
+    .medicine_holder{
+        .medicine_box{
+            .medicine_img{
+                width: 90%;
+                margin: 0;
+            }
+            div{
+                float: none;
+                margin-right: auto;
+                margin-left: auto;
+                width: 80%;
+            }
+        }
+    }
+}

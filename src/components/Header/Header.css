@@ -1,0 +1,139 @@
+header {
+  width: 100%;
+  background-color: white;
+}
+
+.header__main {
+  width: 100%;
+  padding: 1%;
+  box-sizing: border-box;
+}
+
+.header__logo {
+  height: 50px;
+  text-align: center;
+  float: left;
+  margin-top: 25px;
+  margin-left: 100px;
+}
+
+.header__menu {
+  width: 90%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__menu ul {
+  list-style-type: none;
+}
+.header__menu li {
+  float: left;
+  margin: 2.3vw 2vw;
+}
+.header__menu a {
+  text-decoration: none;
+  padding: 10px 10px;
+  color: black;
+}
+.header__menu a:hover {
+  color: #008ce4;
+}
+
+.submenu {
+  position: absolute;
+  box-sizing: border-box;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  margin-left: -4.1%;
+  padding-left: 4.1%;
+  width: 100%;
+  background-color: #E6E7E8;
+}
+.submenu a {
+  color: #00609C;
+}
+.submenu li {
+  margin: 0 5px;
+  display: block;
+}
+
+.submenu_submenu {
+  position: absolute;
+  width: 100%;
+  background-color: #00609C;
+  box-sizing: border-box;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  margin-left: -4.4%;
+  padding-left: 4.4%;
+}
+.submenu_submenu a {
+  color: white;
+}
+.submenu_submenu li {
+  margin: 0 5px;
+  display: block;
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+@media screen and (max-width: 1237px) {
+  .header__main {
+    height: 170px;
+  }
+}
+@media screen and (max-width: 925px) {
+  .header__menu li {
+    margin: 3.5vw 2vw;
+  }
+}
+@media screen and (max-width: 750px) {
+  .header__menu {
+    display: none;
+  }
+
+  header {
+    height: 100px;
+  }
+}
+.search {
+  float: right;
+  margin-right: 250px;
+  width: 15%;
+  margin-top: 2%;
+  position: relative;
+}
+.search input {
+  border-radius: 25px;
+  height: 40px;
+  width: 100%;
+  border: gray 1px solid;
+  padding-left: 15px;
+}
+.search .search_icon {
+  position: absolute;
+  margin-left: -50px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 650px) {
+  .search {
+    margin-right: 100px;
+  }
+  .search .search_icon {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .search {
+    margin-right: 20px;
+  }
+}

@@ -1,0 +1,68 @@
+.symptoms_holder{
+    background-color: #eee;
+    padding-top: 100px;
+    padding-bottom: 100px;
+.symptoms_box{
+    text-align: left;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    div{
+        width: 345px;
+        h2{
+            font-size: 26px;
+            color: #00609C;
+        }
+        p{
+            margin-top: 25px;
+        }
+        .point{
+            margin-top: 0;
+            margin-bottom: 5px;
+        }
+    }
+    .symptoms_button{
+        width: 215px;
+        height: 50px;
+        margin-top: 25px;
+        color: white;
+        background-color: #c017a2;
+        border: none;
+        border-radius: 25px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+}
+.symptoms_img{
+    width: 712px;
+    height: 400px;
+    margin-top: 50px;
+}
+}
+
+@media screen and (max-width: 1400px) {
+    .symptoms_holder{
+    .symptoms_box{
+        flex-direction: column;
+        div{
+            width: 90%;
+        }
+        .symptoms_img{
+            width: 100%;
+            height: auto;
+        }
+    }}
+}
+
+@media screen and (max-width: 500px) {
+    .symptoms_holder{
+    .symptoms_box{
+        width: 90%;
+        div{
+            width: 100%;
+        }
+    }}
+}
